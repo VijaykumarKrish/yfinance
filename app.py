@@ -1,5 +1,6 @@
 from flask import Flask, jsonify
 import yfinance as yf
+from stack_data import fetch_stock_data
 
 app = Flask(__name__)
 
